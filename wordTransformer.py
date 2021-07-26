@@ -79,10 +79,9 @@ def __find_connections(dictionary):
         for others in dictionary:
             if others == val:
                 continue
-            zipped = zip(val, others)
             differences = 0
-            for x,y in zipped:
-                if x != y:
+            for x in range(0,5):
+                if val[x] != others[x]:
                     differences += 1
                 if differences > 1:
                     break
