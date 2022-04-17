@@ -1,5 +1,6 @@
 # Brief
 This repo contains the python solution to an arbitrary coding problem as stated below.
+Ref: https://github.com/ling0015/word-transformer
 
 # Problem Statement
 Given two five letter words, A and B, and a dictionary of five letter words, find a shortest transformation from A to B, such that only one letter can be changed at a time and all intermediate words in the transformation must exist in the dictionary. For example, if A and B are "smart" and "brain", the result may be:
